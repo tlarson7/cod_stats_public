@@ -1,4 +1,5 @@
 from dash import Dash
+from dash import dash_table, html, dcc, Output, Input
 # from layout import layout, get_callbacks
 
 app = Dash(__name__)
